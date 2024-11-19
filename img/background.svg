@@ -1,0 +1,84 @@
+<svg width="1440" height="850" viewBox="0 0 1440 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(-0.330805 0.943699 -0.92984 -0.367963 720 6.10352e-05)"
+    stroke="url(#paint0_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(-0.330805 0.943699 -0.92984 -0.367963 548.572 6.10352e-05)"
+    stroke="url(#paint1_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(-0.330805 0.943699 -0.92984 -0.367963 377.143 6.10352e-05)"
+    stroke="url(#paint2_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(-0.330805 0.943699 -0.92984 -0.367963 205.715 6.10352e-05)"
+    stroke="url(#paint3_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(-0.330805 0.943699 -0.92984 -0.367963 34.2859 6.10352e-05)"
+    stroke="url(#paint4_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2" transform="matrix(0.330805 -0.943699 0.92984 0.367963 720 850)"
+    stroke="url(#paint5_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(0.330805 -0.943699 0.92984 0.367963 891.428 850)"
+    stroke="url(#paint6_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(0.330805 -0.943699 0.92984 0.367963 1062.86 850)"
+    stroke="url(#paint7_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(0.330805 -0.943699 0.92984 0.367963 1234.29 850)"
+    stroke="url(#paint8_linear_1_13)" stroke-width="4" />
+  <line y1="-2" x2="900.711" y2="-2"
+    transform="matrix(0.330805 -0.943699 0.92984 0.367963 1405.71 850)"
+    stroke="url(#paint9_linear_1_13)" stroke-width="4" />
+  <defs>
+    <linearGradient id="paint0_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint1_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint2_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint3_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint4_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint5_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint6_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint7_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint8_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <linearGradient id="paint9_linear_1_13" x1="900.711" y1="0.5" x2="0" y2="0.5"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E6E85" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+  </defs>
+</svg>
+  

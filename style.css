@@ -1,90 +1,165 @@
 @font-face {
-    font-family: 'idealist' ;
-    src: url('/fonts/idealist-sans.light_.ttf');
-}
-body {
-    background-color:#4E6E85;
-}
-.page {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    color: #fff;
-    font-family: 'idealist';
-    text-align: center;
-} 
-.logo {
-    text-align: center;
-    margin-left: auto;
-    margin-top: 10%;
-    width: 100%;
-    height: auto;
-    /*background-image: url('img/logo.png');*/
+  font-family: Idealist;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url(./fonts/idealist-sans.light.ttf)
 }
 
-/* Устроства с маленьким экраном (планшеты, 768px и выше) */
-@media (min-width: 768px) {
-    .page {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        color: #fff;
-        font-family: 'idealist';
-        text-align: center;
-    } 
-    .logo{
-        text-align: center;
-        margin-left: auto;
-        margin-top: 10%;
-        width: 100%;
-        height: auto;
-        /*background-image: url('img/logo.png');*/
-    }
-    /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
-    }
-    
-    /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
-    @media (min-width: 992px) {
-        .page {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            color: #fff;
-            font-family: 'idealist';
-            text-align: center;
-        } 
-        .logo{
-            text-align: center;
-            margin-left: auto;
-            margin-top: 10%;
-            width: 100%;
-            height: auto;
-            /*background-image: url('img/logo.png');*/
-        }
-      /* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
-    }
-    
-    /* Устройства с большим экраном (компьютеры, 1200px и выше) */
-    @media (min-width: 1200px) {
-        .page {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            color: #fff;
-            font-family: 'idealist';
-            text-align: center;
-        } 
-        .logo{
-            text-align: center;
-            margin-left: auto;
-            margin-top: 10%;
-            width: 100%;
-            height: auto;
-            /*background-image: url('img/logo.png');*/
-        }
-      /* Стили для устройств с шириной viewport >1200px */
-    }
-    img {
-        width: 100%;
-        margin-top: 10%;
-    }
+@font-face {
+  font-family: Idealist;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(./fonts/idealist-sans.regular.ttf),
+}
+
+:root {
+  --main-color: #4E6E85;
+  --transparent-white: #FFFFFF99;
+}
+
+body {
+  background-color: white;
+  padding: 0px 10px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-end;
+  background: url('./img/background.svg');
+}
+
+/* body img{
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(19px);
+} */
+
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 64px;
+  border-radius: 16px;
+  background: var(--main-color);
+  font-family: Idealist;
+  color: white;
+  margin-bottom: 70px;
+  width: 100%;
+  z-index: 100;
+}
+
+.block> :first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.block> :first-child span {
+  color: var(--transparent-white);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.block> :first-child h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.block> :last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+}
+
+.block> :last-child span {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+@media (min-width: 700px) {
+  .block {
+    flex-direction: row;
+  }
+
+  .block> :first-child {
+    min-width: 248px;
+  }
+
+  .block> :last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: space-between;
+    max-width: 352px;
+  }
+
+  .block> :last-child span {
+    font-size: 17px;
+  }
+
+  .block> :last-child .tel {
+    font-size: 15px;
+  }
+
+  a {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 800px) {
+  .block {
+    justify-content: space-between;
+    gap: 0px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .block> :last-child {
+    max-width: 400px;
+  }
+
+  .block> :first-child {
+    min-width: 452px;
+    gap: 16px;
+  }
+
+  .block> :first-child span {
+    font-size: 18px;
+  }
+
+  .block> :first-child h1 {
+    font-size: 40px;
+  }
+
+  .block> :last-child span,
+  .block> :last-child .tel {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+}
