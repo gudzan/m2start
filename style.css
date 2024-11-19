@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'idealist' ;
+    src: url('/fonts/idealist-sans.light_.ttf');
+}
+body {
+    background-color:#4E6E85;
+}
+.page {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-family: 'idealist';
+    text-align: center;
+} 
+.logo {
+    text-align: center;
+    margin-left: auto;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+    /*background-image: url('img/logo.png');*/
+}
+
+/* Устроства с маленьким экраном (планшеты, 768px и выше) */
+@media (min-width: 768px) {
+    .page {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-family: 'idealist';
+        text-align: center;
+    } 
+    .logo{
+        text-align: center;
+        margin-left: auto;
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+        /*background-image: url('img/logo.png');*/
+    }
+    /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
+    }
+    
+    /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+    @media (min-width: 992px) {
+        .page {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            color: #fff;
+            font-family: 'idealist';
+            text-align: center;
+        } 
+        .logo{
+            text-align: center;
+            margin-left: auto;
+            margin-top: 10%;
+            width: 100%;
+            height: auto;
+            /*background-image: url('img/logo.png');*/
+        }
+      /* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
+    }
+    
+    /* Устройства с большим экраном (компьютеры, 1200px и выше) */
+    @media (min-width: 1200px) {
+        .page {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            color: #fff;
+            font-family: 'idealist';
+            text-align: center;
+        } 
+        .logo{
+            text-align: center;
+            margin-left: auto;
+            margin-top: 10%;
+            width: 100%;
+            height: auto;
+            /*background-image: url('img/logo.png');*/
+        }
+      /* Стили для устройств с шириной viewport >1200px */
+    }
+    img {
+        width: 100%;
+        margin-top: 10%;
+    }
